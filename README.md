@@ -32,20 +32,20 @@ pip install -r requirements.txt
 ```
 2. Run preprocessing:
 ```bash
-python preprocessing/preprocess.py
+python preprocessing/preprocessing.ipynb
 ```
 
 3. Run classic ML models:
 ```bash
-python classic_models/linear_regression.py
-python classic_models/knn_regressor.py
-python classic_models/neural_network_regressor.py
+python classic_models/linear_regression.ipynb
+python classic_models/knn_regressor.ipynb
+python classic_models/neural_network_regressor.ipynb
 ```
 
 4. Run literature-based models:
 ```bash
-python paper_models/paper1_xgboost.py
-python paper_models/paper2_bayesopt_rf.py
+python paper_models/paper1_xgboost.ipynb
+python paper_models/paper2_bayesopt_rf.ipynb
 ```
 
 ## References
@@ -55,4 +55,5 @@ python paper_models/paper2_bayesopt_rf.py
 > Paper 2: “House Price Prediction with Optimistic Machine Learning Methods Using Bayesian Optimization” (2024, SCITEPRESS)
 
 > Kaggle Dataset: House Prices: Advanced Regression Techniques
+
 
