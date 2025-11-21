@@ -15,10 +15,22 @@ This section includes every file and folder is described in detail.
 IntroMLCapstone/
 │
 ├── data/
-│   ├── X_train.npy
-│   ├── X_val.npy
-│   ├── y_train.npy
-│   ├── y_val.npy
+│ ├── X_processed.npz
+│ ├── X_test_processed.npz
+│ ├── data_description.txt
+│ ├── knn_val_predictions.npy
+│ ├── lr_val_predictions.npy
+│ ├── nn_metrics.json
+│ ├── nn_val_predictions.npy
+│ ├── paper1_xgb_metrics.json
+│ ├── paper1_xgb_test_predictions.npy
+│ ├── paper1_xgb_val_predictions.npy
+│ ├── paper2_rf_val_predictions.npy
+│ ├── paper2_xgb_val_predictions.npy
+│ ├── test.csv
+│ ├── train.csv
+│ ├── y.csv
+│ └── y_val.npy
 │
 ├── preprocessing/
 │   └── preprocessing.ipynb
@@ -41,13 +53,14 @@ IntroMLCapstone/
 │       - Includes Bayesian Optimization, XGBoost tuning, feature importance
 │
 ├── results/
-│   ├── all_models_metrics.ipynb
-│   ├── model_comparison_metrics.csv
-│   ├── rmse_comparison.png
-│   ├── mae_comparison.png
-│   ├── best_model_actual_vs_pred.png
-│   ├── best_model_residuals.png
-│   └── metrics_table.png (if generated)
+│ ├── all_models_metrics.ipynb
+│ ├── best_model_actual_vs_pred.png
+│ ├── best_model_residuals.png
+│ ├── mae_comparison.png
+│ ├── metrics_table.png
+│ ├── model_comparison_metrics.csv
+│ ├── r2_comparison.png
+│ └── rmse_comparison.png
 │       - Stores consolidated metrics, plots, and visual results
 │
 ├── requirements.txt
@@ -56,6 +69,16 @@ IntroMLCapstone/
 └── README.md
     - Project overview and file descriptions
 ```
+
+**Folder/File Descriptions:**
+
+- `data/` – Preprocessed datasets, intermediate outputs, saved predictions, and raw CSV files.  
+- `preprocessing/` – Notebook for cleaning, encoding, scaling, and preparing features.  
+- `classic_models/` – Classic ML models (Linear Regression, KNN, Neural Network).  
+- `paper_models/` – Literature-based models (Paper 1 XGBoost, Paper 2 Bayesian-Optimized models).  
+- `results/` – Evaluation results, metrics tables, and visualizations for all models.  
+- `README.md` – Project documentation (this file).  
+- `requirements.txt` – Python package dependencies.
 
 ## Project Objective
 
@@ -123,13 +146,25 @@ results/all_models_metrics.ipynb
 ```
    
 
-## References
+## 📚 References
 
-> Paper 1: “An Optimal House Price Prediction Algorithm: XGBoost” (2024, arXiv)
+> **Paper 1: XGBoost**
+   - Title: *“An Optimal House Price Prediction Algorithm: XGBoost”*  
+   - Year: 2024  
+   - Source: arXiv  
+   - Link: [https://arxiv.org/abs/2402.04082](https://arxiv.org/abs/2402.04082)
 
-> Paper 2: “House Price Prediction with Optimistic Machine Learning Methods Using Bayesian Optimization” (2024, SCITEPRESS)
+> **Paper 2: Bayesian-Optimized Models**
+   - Title: *“House Price Prediction with Optimistic Machine Learning Methods Using Bayesian Optimization”*  
+   - Year: 2024  
+   - Source: SCITEPRESS  
+   - Link: [https://www.scitepress.org/Papers/2024/128254/128254.pdf](https://www.scitepress.org/Papers/2024/128254/128254.pdf)
 
-> Kaggle Dataset: House Prices: Advanced Regression Techniques
+> **Dataset**
+   - Kaggle: *House Prices – Advanced Regression Techniques*  
+   - Link: [https://www.kaggle.com/c/house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
+
 
 
 
