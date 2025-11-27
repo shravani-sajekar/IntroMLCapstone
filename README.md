@@ -143,6 +143,7 @@ python paper_models/paper2_bayesopt_rf.ipynb
 5. View Results
 ```bash
 results/all_models_metrics.ipynb
+results/final_summary_dashboard.ipynb
 ```
    
 
@@ -163,6 +164,7 @@ results/all_models_metrics.ipynb
 > **Dataset**
    - Kaggle: *House Prices – Advanced Regression Techniques*  
    - Link: [https://www.kaggle.com/c/house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
 
 
 
