@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IntroMLCapstone
 
 ## Introduction
@@ -336,6 +335,7 @@ results/final_summary_dashboard.ipynb
 > **Dataset**
    - Kaggle: *House Prices – Advanced Regression Techniques*  
    - Link: [https://www.kaggle.com/c/house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
 
 
 
