@@ -144,6 +144,7 @@ python paper_models/paper2_bayesopt_rf.ipynb
 5. View Results
 ```bash
 results/all_models_metrics.ipynb
+results/final_summary_dashboard.ipynb
 ```
    
 
