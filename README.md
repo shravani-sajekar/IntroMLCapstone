@@ -164,10 +164,3 @@ results/final_summary_dashboard.ipynb
 > **Dataset**
    - Kaggle: *House Prices – Advanced Regression Techniques*  
    - Link: [https://www.kaggle.com/c/house-prices-advanced-regression-techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-
-
-
-
-
-
->>>>>>> d2651c5ba9d0778c947659788634223a9193c634
