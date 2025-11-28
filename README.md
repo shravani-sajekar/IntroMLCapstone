@@ -143,6 +143,7 @@ python paper_models/paper2_bayesopt_rf.ipynb
 5. View Results
 ```bash
 results/all_models_metrics.ipynb
+results/final_summary_dashboard.ipynb
 ```
    
 
@@ -343,3 +344,4 @@ results/final_summary_dashboard.ipynb
 
 
 >>>>>>> d2651c5ba9d0778c947659788634223a9193c634
+
