@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IntroMLCapstone
 
 ## Introduction
